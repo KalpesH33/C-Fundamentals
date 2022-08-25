@@ -110,5 +110,15 @@ namespace Test
             int Result = num1 * num1 * num1;
             return Result;
         }
+        
+        static void ForLoop()
+        {
+            int [] luckyNo = {0,1,3,4,5,6};
+            for (int i= 1/*varibale Dec*/; i< luckyNo.Length/*Condition*/; i++/*increment*/)
+              {
+                    Console.WriteLine (luckyNo[i]); 
+              }
+            
+        }
     }
 }
