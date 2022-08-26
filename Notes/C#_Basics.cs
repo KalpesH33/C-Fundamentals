@@ -48,9 +48,9 @@ namespace Test
                 byte B1 = Convert.ToByte(Num1);
                 Console.WriteLine(B1);
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                Console.WriteLine("coversion will not happen ");
+                Console.WriteLine(e.Message);
             }
 
             // ********** Operators *********
@@ -129,6 +129,34 @@ namespace Test
                 Console.WriteLine(i);
                 i++;
             }
+        }
+        //Two Dimensional Array
+        static void TwoDimArray()
+        {
+             int[,] TwoDimArr = {
+            
+                {1,2}, // index 0
+                {3,4}, // index 1
+                {5,6}   // index 2 
+        };
+        Console.WriteLine(TwoDimArr[2,0]); 
+        }
+        //Exception Handling \
+        static int ExceptionHand()
+        {
+            try
+            {
+               Console.WriteLine("Enter the first no");
+               int num1 = Convert.ToInt32(Console.ReadLine()) ;
+               Console.WriteLine("Enter the seconnd no");
+               int num2 = Convert.ToInt32(Console.ReadLine()) ;
+               return num1 + num2;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        
         }
     }
 }
