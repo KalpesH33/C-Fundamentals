@@ -1,7 +1,7 @@
 using System;
 
 namespace book;
-class books
+class book
 {
   public string EmpName;
   public int EmpID;
