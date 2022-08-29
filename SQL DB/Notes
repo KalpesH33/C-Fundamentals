@@ -33,6 +33,21 @@ order by customer_id DESC } // used to print in decending order
 order by customer_id DESC
 limit 3; }// limit is used to print specific line set by you
 
+************* Operator **********
+
+{
+    = , <, >, <=, >=, <>, AND, OR
+    -- used for the comment the line
+}
+
+***********************************
+
+Select * from Customers
+where customer_id in (1,3,5)  // IN used to display/update/Delete the values from inside ();
+
+  
+
+
 
 
 
