@@ -1,5 +1,40 @@
 ************ SQL DATABASE *****************
 
-Primary key - is a unique key that used to define u
+create table Student
+(
+  	ID INT Primary Key, // * Primary Key is used to set the value 
+    Name varchar(10) Not Null,  // * Not null is used value cant be nul 
+  	Divsion varchar(5) unique, // * Unique used to add unique vale
+    Branch varchar(20) Default 'NA' // Default is used to set the default value for the perticular column
+); // Used to create a table;
 
-forge
+Drop table TB_Name; // delete table
+
+Alter table TB_Name ADD New_TB varchar; // used to add new table 
+
+Alter table TB_Name Drop TB; // Delete column from table
+
+insert into Customers (customer_id, first_name) values (7, "bob"); // used to inset perticular column info to the table 
+
+insert into Customers values (7, "bob", joh, 21, IND); // used to insert the values to the table
+
+{ Update Customers 
+set last_name = 'Patil'
+where last_name = 'Reinhardt'; } // used to update the values 
+
+{ Delete from Customers // it will delete all rows from table
+  where customer_id = 6;  
+  } // used to delete rows 
+  
+{  Select * from Customers
+order by customer_id DESC } // used to print in decending order
+
+{ Select * from Customers
+order by customer_id DESC
+limit 3; }// limit is used to print specific line set by you
+
+
+
+
+
+
