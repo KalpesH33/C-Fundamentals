@@ -45,6 +45,7 @@ limit 3; }// limit is used to print specific line set by you
 Select * from Customers
 where customer_id in (1,3,5)  // IN used to display/update/Delete the values from inside ();
 
+
   
 
 
