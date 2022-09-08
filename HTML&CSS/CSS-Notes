@@ -1,0 +1,46 @@
+-- to style tag use name of tag 
+<style>
+
+h2 { color : blue; }
+</style>
+-- to style by class use . class name
+<style>
+  .unorder {color : red; }
+</style>
+
+-- to change to size of fort use
+<style>
+  .unorder{font-size: 10px}
+</style>
+
+-- to changes size of images
+<style>
+  .unorder{width : 100px}
+ </style>
+ 
+ -- to add border on the text/imges
+ <style>
+    .unorder
+    {
+      border-color : red;
+      border-width : 5px;
+      border-style : solid;
+    
+    }
+ </style>
+ 
+ -- to change the border edges to round 
+ <style>
+      border-color : red;
+      border-width : 5px;
+      border-style : solid;
+      border-radios : 50%
+ </style>
+ 
+ --to style element by ID
+  #unroder {
+  color : blue;
+  background-color : gray;
+  }
+  
+ 
