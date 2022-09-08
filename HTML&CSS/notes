@@ -1,0 +1,15 @@
+-- to style tag use name of tag 
+<style>
+
+h2 { color : blue; }
+</style>
+-- to style by class use . class name
+<style>
+  .unorder {color : red; }
+</style>
+
+-- to change to size of fort use
+<style>
+  .unorder{font-size: 10px}
+</style>
+
