@@ -43,4 +43,16 @@ h2 { color : blue; }
   background-color : gray;
   }
   
+  -- padding
+  padding-top :10px
+  padding-right : 20px
+  padding-bottom : 20px
+  padding-left : 10px
+  
+  -- another way to add padding
+  
+  padding 10px 20px 20px 10px {top,right,bottom,left}
+  
+  --to add margin
+  margin 10px 20px 20px 10px {top,right,bottom,left}
  
