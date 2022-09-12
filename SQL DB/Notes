@@ -45,6 +45,27 @@ limit 3; }// limit is used to print specific line set by you
 Select * from Customers
 where customer_id in (1,3,5)  // IN used to display/update/Delete the values from inside ();
 
+########  Funtion ########
+
+Count()-- used to count no of entries in the column 
+Sum() -- used to calculate the sum of values
+Avg()-- used to find the avarge of the values
+
+######################################
+
+union- is unsed to add the both table data in the single column
+
+select firstName
+from Employee
+union 
+select branchName
+from Branch
+
+##############################################
+
+######### Joins ############
+
+
 
   
 
