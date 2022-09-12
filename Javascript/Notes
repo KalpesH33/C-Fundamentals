@@ -1,0 +1,6 @@
+Data Types - undefine, string, number, boolen, string, symbol, object 
+
+Declartin of varible - 
+  Var var_name = "Kalpesh"; we can use anywhare in code
+  let var_name = "patil"; we can use within the scope
+  const pi = 3.14; const can be changew
