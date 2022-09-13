@@ -50,6 +50,14 @@ where customer_id in (1,3,5)  // IN used to display/update/Delete the values fro
 Count()-- used to count no of entries in the column 
 Sum() -- used to calculate the sum of values
 Avg()-- used to find the avarge of the values
+len()-- used to calculate the length of string
+left()-- used to Extract charecter by no from left side
+example 
+name = 'kalpesh'
+left(name,2)// output wiil be 'ka'
+
+right()-- used to extract charecter by no form right side
+right(name,2) // output will be 'sh'
 
 ######################################
 
