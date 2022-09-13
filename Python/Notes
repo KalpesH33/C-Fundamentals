@@ -1,0 +1,71 @@
+Python function (String)- 
+    lower() - lower the case a-z
+    upper() - upper the case A-Z
+    isupper()/islower - isupper/islower is used to check the string is upper/lower case or not
+                output of this will be in the boolen form like true or false
+    len() - used to calculate the length of the string
+            ex. len(varname) 
+    index() - used to check the index each charcter of the string
+              varName = "kalpesh"
+              ex. print(varName.index("K")) // output for this is '0' 
+    replace() - used to repalce the string from old to new
+              ex. varName= "kalpesh patil"
+              print(vanName.replace("kalpesh","Ashok"))
+    
+    Learn more about Python string Function - "https://www.w3schools.com/python/python_ref_string.asp"
+    
+    
+    ################################################################
+ 
+Python Function (Number) - 
+    str()- used to convert num to string 
+           ex. num = 5
+               print(str(num) + "is role num") // output- 5 is my num 
+    
+    abs()- used to get the absolute value 
+          ex. num = -5
+              print(num) // output '5' 
+              
+    pow() - used to check/get the power of the number
+            ex. print(pow(3,2)) // 3^2 
+            output - 6
+            
+     min()- used to check small no betn two nums
+            ex. print(min(4,6)) //output- 4
+     max() - used to check the big num betn two nums
+            ex. print(max(4,6)) output- 6
+            
+     round()- used to get the rougndfiger of the values
+                num = 4.4 / 4.6
+                print(round(num)) output - 4 / 5     
+             
+To import funtion from the external source have to import in to the code
+      to use below function need to import the math  function
+
+from math import * -- used to import the function 
+
+
+    floor() - used to remove the value after decimal 
+            ex. print(floor(3.5)) output - 3 
+            
+    ceil() - used to get the roundfiger value
+          ex. print(ceil(2.4)) o/p - 3
+          
+     Learn more about Python math Function "https://www.w3schools.com/python/module_math.asp"
+     
+########################################################
+
+Input from user - 
+   varName = input("Enter the value")
+
+list - 
+    
+   
+   
+    
+
+
+ 
+
+
+    
