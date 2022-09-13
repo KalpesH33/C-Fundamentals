@@ -65,9 +65,58 @@ from Branch
 
 ######### Joins ############
 
+types - 
+  Inner join - 
+  left join 
+  right join
 
+######### Trigger #########
 
+trigger is used to pop the meassage when we add on delete any entries in the data base
+
+DECIMITER $$
+CREATE TRRGGER my_trigger BEFORE INSERT
+ON employee(TBALE NAME) 
+FOR EACH ROW BEGIN
+  INSERT INTO my_trigger VALUES ("TRIGGER MEASSAGE")OR  INSERT INTO my_trigger VALUES (NEW.firstName(is coulmn name))
   
+########### ER-Diagram ############
+
+part of ER- Diagram 
+Enity - is basicaly table name weare we stores the all the attrinutes
+enity is represented by "SQUARE"
+
+Attribute - attributes is basically column name that store the values in enity 
+attribute is represted by oval
+
+composite attribute - is basiclly sub of Attribute
+
+primary key - represented by underline
+
+multi-valued  - multi-valued is store the more that one value 
+ex. clubes stores the multiple values like nature club , robart clube, cricket clubes
+represented by double line oval 
+
+derived attribute - means the attribues derived from other attributes 
+represent by (--- oval )
+
+multiple entity - more the one entity or more the one table 
+
+realtionship - define the realtion between two enitys 
+represented by single line reactange
+
+realtioship attribute
+realtionshio cardanality 
+define using M & N 
+M means - many 
+
+Identifying relationship - a relationship that serves to uniquly idenitify the weak enity 
+represent by double line of reactange
+
+
+
+
+
 
 
 
