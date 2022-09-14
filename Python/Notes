@@ -99,6 +99,85 @@ list - list is containar that contain the list of string & numbers
    
    list_Name1 = list_Name.copy()/// used to get the copy of the list into new list varible
    
+####################################################################################
+
+tuple -- tuple same as list but tuple is immuteble(cant change) , we can add dupulicate
+
+       VarName = (4, 5)
+       
+##########################################
+
+Function -- container that contain data & methods
+    
+    def - used to start the fucntion 
+    
+    ex. def fun_Name():  // declaration function
+        fun_Name() // call the function
+        
+#########################################
+
+if else Statement 
+    ex - 
+        
+N1 = float(input("enter the first value")) 
+O = input("Enter the operator: ")
+N2 = float(input("enter the second value"))
+
+if O == '+':
+    print(N1+N2)
+elif O == '-':
+    print(N1+N2)
+elif O == '/':
+    print(N1+N2)
+elif O == '*':
+    print(N1+N2)
+else:
+    print("invalid")
+    
+################################################
+
+Dictinories -- Dictionaries are used to store data values in key:value pairs.
+               A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
+Dict = {
+    
+    "k": "kalpesh",
+    "a": "ashok",
+    "r": "roshni",
+    "j": "jyoti"
+}
+
+print(Dict.get('a'))  // .get() used to get word the by key 
+
+####################################################################   
+
+While Loop -- 
+
+        n1 = 2
+        while n1 <= 20:
+            print(n1)
+            n1 += 2;
+ 
+###################### Guessing Game ###############
+
+s = input("Enter the secreat word: ")
+u = ''
+count_g = 0
+out_g = False
+g_limit = 3
+
+while s != u and not(out_g):
+    if count_g < g_limit:
+        u = input("guess the word:")
+        count_g +=1
+    else:
+        out_g = True
+if out_g:
+    print("out of guess")
+else:
+    print("you won")
+         
+    
+   
    
   
   
