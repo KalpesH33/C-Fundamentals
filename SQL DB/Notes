@@ -59,6 +59,15 @@ left(name,2)// output wiil be 'ka'
 right()-- used to extract charecter by no form right side
 right(name,2) // output will be 'sh'
 
+floor() -- used to round the value which nereste // floor(28.3) o/p - 28
+
+min() - used to get minimum value
+
+max() -- used to get the maximum value
+
+
+
+ 
 ######################################
 
 union- is unsed to add the both table data in the single column
@@ -120,6 +129,17 @@ M means - many
 
 Identifying relationship - a relationship that serves to uniquly idenitify the weak enity 
 represent by double line of reactange
+
+
+
+CASW -The CASE expression goes through conditions and returns a value when the first condition is met (like an if-then-else statement)
+
+CASE
+    WHEN condition1 THEN result1
+    WHEN condition2 THEN result2
+    WHEN conditionN THEN resultN
+    ELSE result
+END;
 
 
 
