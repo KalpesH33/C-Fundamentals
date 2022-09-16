@@ -1,0 +1,38 @@
+AWS - provides cloud computing service 
+
+compute power  - compute power used to gives the power to servers, compute power is like ram for your cloud services you only pay the power you used 
+ 
+services -
+( Compute )
+  Amazon EC2 - EC2 provide the compute capacity in the cloud based as per business need
+  Amazon Elastic Benstlk - help to deploy web application made programing laungages like Node.js, .net java, php 
+                           - it will create the monitering interface 
+                           - when you deploy the application on AWS it will give the random URL 
+                           - to get custom domain for application you have to map with Rout53 
+  
+                            
+                            Dyanmo DB - used to track the data from user who login/signup on the website
+  Amazon lightsail - used to create virtual private serves and manage that serves
+  Amazon Lambda - used to help you to pay only the compute power you used 
+                  it run code automatical when its needed pay only the compute time used 
+                  
+  
+( Storage ) 
+   Amazon S3 - is storage object that used to store & retrive data from anywhere 
+   Amazon Glacier - is cloud stroage service that is used to for archiving data and long backup
+   Amazon EBS ( Elastic block store ) - used to provide block storage volumes for the instance of amazon of amazon EC2
+                                        it is attached to S3
+                                        EBS used to be accessible to a single EC2 instance only
+   Amazon Elastic File System - EFS can be mounted by multiple EC2 instances, meaning many virtual machines may store files within an EFS instance. 
+   
+   
+   ( Databses ) 
+    Amazon RDS - AWS RDS offers a fully managed relational database as a service. It allows a customer to choose from six different database engines 
+                – MySQL, MariaDB, PostgreSQL, AWS Aurora, Oracle Database, and SQL Serve
+                - is cost effictive 
+    Amazon Redshift - is a data warehouse that enables users to analyze their data using sql and other BI tool 
+    
+    AWS IAM - used to create user to acces there permission or not 
+    
+    Route 53 - provide DNS service used to register the domain name for you web application 
+    
