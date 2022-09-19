@@ -4,7 +4,9 @@ compute power  - compute power used to gives the power to servers, compute power
  
 services -
 ( Compute )
-  Amazon EC2 - EC2 provide the compute capacity in the cloud based as per business need
+  Amazon EC2 - basicaly used to create Virtual machine (instance) with  attcheed EBS(Amazon Elastic Block Store)30GB storoge 1 cpu for free 
+  EC2 provide the compute capacity in the cloud based as per business need
+  
   Amazon Elastic Benstlk - help to deploy web application made programing laungages like Node.js, .net java, php 
                            - it will create the monitering interface 
                            - when you deploy the application on AWS it will give the random URL 
@@ -13,12 +15,17 @@ services -
                             
                             Dyanmo DB - used to track the data from user who login/signup on the website
   Amazon lightsail - used to create virtual private serves and manage that serves
-  Amazon Lambda - used to help you to pay only the compute power you used 
+  Amazon Lambda - used to perform some task like if you want copy some file from source to destinaion we can write a code for that upload the code in lambda funtion
+                  and lambda will to all the task automticaly it will copy the file from source bucket to destination bucket
+                  used to help you to pay only the compute power you used 
                   it run code automatical when its needed pay only the compute time used 
                   
   
 ( Storage ) 
    Amazon S3 - is storage object that used to store & retrive data from anywhere 
+               s3 is global service but when you create bucket its region wise 
+               in bucket we can store the file also we can host website on S3
+   
    Amazon Glacier - is cloud stroage service that is used to for archiving data and long backup
    Amazon EBS ( Elastic block store ) - used to provide block storage volumes for the instance of amazon of amazon EC2
                                         it is attached to S3
@@ -27,14 +34,27 @@ services -
    
    
    ( Databses ) 
+    
+    Dynamo DB - is nosql databse 
+                dynamo DB is fast and secure 
+                we can create table and cloumns using dynamo DB console no need to run any query for that 
+                dynamo can used to strore the backup when its need to we can restore that
+                
     Amazon RDS - AWS RDS offers a fully managed relational database as a service. It allows a customer to choose from six different database engines 
                 – MySQL, MariaDB, PostgreSQL, AWS Aurora, Oracle Database, and SQL Serve
                 - is cost effictive 
     Amazon Redshift - is a data warehouse that enables users to analyze their data using sql and other BI tool 
     
-    AWS IAM - used to create user to acces there permission or not 
+    AWS IAM - used to create user and give them that you want access your AWS acoount 
     
     Route 53 - provide DNS service used to register the domain name for you web application 
+    type routing - A, AAAA, MX, NS, SOA
+    
+   ( Mangement ) -
+    
+    CloudWatch - used to monitor the service that you want
+                 check statistis of all the services
+                
     
     
 Cloud Computing - is distrubution of computing services via internet including servers , database , storage, networking , application 
