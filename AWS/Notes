@@ -43,7 +43,8 @@ services -
     Amazon RDS - AWS RDS offers a fully managed relational database as a service. It allows a customer to choose from six different database engines 
                 – MySQL, MariaDB, PostgreSQL, AWS Aurora, Oracle Database, and SQL Serve
                 - is cost effictive 
-    Amazon Redshift - is a data warehouse that enables users to analyze their data using sql and other BI tool 
+    Amazon Redshift - is sql data base you have to create table maunaly here 
+                  is a data warehouse that enables users to analyze their data using sql and other BI tool 
     
     AWS IAM - used to create user and give them that you want access your AWS acoount 
     
